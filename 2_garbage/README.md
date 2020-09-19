@@ -10,7 +10,7 @@ ___
 ___
 
 
-### Solution
+### Solution:
 
 A quick look at the binary shows that it's packed with UPX. However we cannot unpack it:
 ```
