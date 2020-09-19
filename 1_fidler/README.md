@@ -63,7 +63,7 @@ Therefore:
 idle_with_kitty@flare-on.com
 ```
 
-Which gives the flag: `idle_with_kitty@flare-on.com`
+Which give us the flag: `idle_with_kitty@flare-on.com`
 
 ___
 
