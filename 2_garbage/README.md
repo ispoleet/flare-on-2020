@@ -203,7 +203,7 @@ In [7]: plain_2
 Out[7]: 'MsgBox("Congrats! Your key is: C0rruptGarbag3@flare-on.com")\x00eREn]t\x00\x1cGsimR]Q]\x1e\x07gWeR\'CpA!FR)5}\x12sptWQt'
 ```
 
-Which give us the flag: `C0rruptGarbag3@flare-on.com")`
+Which give us the flag: `C0rruptGarbag3@flare-on.com`
 
 ___
 
