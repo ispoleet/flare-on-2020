@@ -77,11 +77,11 @@ do
         break
     fi
 done
+```
 
-
-Th only caveat here is that the section **must** end with a NULL byte. We run the script 
+The only caveat here is that the section **must** end with a NULL byte. We run the script 
 and after a while we hit the right value (`732`):
-``
+```
 ================ 731 ==================
                        Ultimate Packer for eXecutables
                           Copyright (C) 1996 - 2020
