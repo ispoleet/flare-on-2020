@@ -15,7 +15,7 @@ ___
 ___
 
 
-### Solution
+### Solution:
 
 
 Open `fidler.py` and look for `decode_flag`:
