@@ -17,6 +17,36 @@ We have to deal with a `*.tpk` file, which is essentially a zip archive:
 ```
 ispo@ispo-glaptop:~/ctf/flare_on/5_TKApp$ file TKApp.tpk 
 TKApp.tpk: Zip archive data, at least v2.0 to extract
+
+ispo@ispo-glaptop:~/ctf/flare_on/5_TKApp$ unzip -l TKApp.tpk
+Archive:  TKApp.tpk
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+     7944  2020-08-03 15:23   author-signature.xml
+        0  2020-08-03 15:23   lib/
+     8008  2020-08-03 15:23   signature1.xml
+      920  2020-08-03 14:11   tizen-manifest.xml
+     4316  2020-08-03 15:23   TKApp.deps.json
+    18432  2018-05-04 10:58   bin/ExifLib.Standard.dll
+    75264  2019-10-30 16:57   bin/Tizen.Wearable.CircularUI.Forms.dll
+   119808  2019-10-30 16:57   bin/Tizen.Wearable.CircularUI.Forms.Renderer.dll
+   111616  2020-08-03 15:23   bin/TKApp.dll
+   906360  2019-08-17 02:11   bin/Xamarin.Forms.Core.dll
+    17024  2019-08-17 02:11   bin/Xamarin.Forms.Platform.dll
+   312456  2019-08-17 02:11   bin/Xamarin.Forms.Platform.Tizen.dll
+   103544  2019-08-17 02:11   bin/Xamarin.Forms.Xaml.dll
+   217395  2020-06-22 17:30   res/gallery/01.jpg
+   178289  2020-07-03 17:24   res/gallery/02.jpg
+    92022  2020-06-22 16:48   res/gallery/03.jpg
+   161177  2020-06-22 17:40   res/gallery/04.jpg
+   129115  2020-06-22 18:33   res/gallery/05.jpg
+      392  2016-08-08 05:18   res/img/img.png
+    87301  2020-07-07 13:52   res/img/tiger1.png
+    79109  2020-07-07 13:47   res/img/tiger2.png
+      239  2016-08-08 05:18   res/img/todo.png
+    87942  2020-07-07 14:30   shared/res/TKApp.png
+---------                     -------
+  2718673                     23 files
 ```
 
 The file that we are interested in analyzing is `bin/TKApp.dll`, which is actually a .NET
