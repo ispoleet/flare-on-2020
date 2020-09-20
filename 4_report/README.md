@@ -329,12 +329,9 @@ contains the image.
 ![alt text](./v.png)
 
 
+Which give us the flag: `thi5_cou1d_h4v3_b33n_b4d@flare-in.com`
+
 The code that deciphers the image is here: [crack_cipher.py](./crack_cipher.py):
-```
-
-Which give us the flag: C0rruptGarbag3@flare-on.com")
-
-
 
 ___
 
