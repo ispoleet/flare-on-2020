@@ -15,7 +15,7 @@ A quick a look at the binary's string indicates that we have an [AutoIt](https:/
 Luckily there is an AutoIt decompiler, called [Exe2Aut](http://domoticx.com/autoit3-decompiler-exe2aut/). 
 The decompiled script is shown at [codeit_decompiled_original.au3](./codeit_decompiled_original.au3)
 
-Unfortunately, the script is heavily obfuscated. The first task is to write a small script ([string_deobf.py](./string_deobf.py)
+Unfortunately, the script is heavily obfuscated. The first task is to write a small script, [string_deobf.py](./string_deobf.py),
 to deobfuscate the strings at the bottom of the script. Then, to make things easier, 
 I wrote some VIM scripts to do an in-place deobfuscation:
 ```
