@@ -183,7 +183,7 @@ This is a `PUBLICKEYSTRUC` with the following fields:
 ```
 
 The important field here is `aiKeyAlg` which is `0x00006610` or `CALG_AES_256`
-(see [here](https://docs.microsoft.com/en-us/windows/win32/seccrypto/alg-id).
+(see [here](https://docs.microsoft.com/en-us/windows/win32/seccrypto/alg-id)).
 
 Working in an similar way, we can extract the exact encryption that is being used:
 ```C
@@ -333,7 +333,7 @@ But before we write any code let us do something simpler: We just rename the com
 into `aut01tfan1999` and we simply run the code. This approach also works and give us
 the flag's QR code:
 
-![alt text](./qr_code_flag.jpeg)
+![alt text](./qr_code_flag.png)
 
 Finally, we use an online [QR decoder](https://zxing.org/w/decode.jspx) 
 which give us the flag: `L00ks_L1k3_Y0u_D1dnt_Run_Aut0_Tim3_0n_Th1s_0ne!@flare-on.com`
