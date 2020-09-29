@@ -1089,12 +1089,12 @@ F6 E9 FD B4 CD 22 4A 35  9C 12 73 BD 2B 10 54 B9
 ```
 
 Knowing that the password is `H@n $h0t FiRst!`, we can do a vanilla RC4 to the
-above cipher text and get the flag: `S0_m@ny_cl@sse$_in_th3_Reg1stry@flare-on.com`.
-
+above cipher text and get the flag.
 
 For more details please take a look at the crack file: [crackstaller_crack.py](./crackstaller_crack.py)
 
 The password is: `H@n $h0t FiRst!`
+
 The flag is: `S0_m@ny_cl@sse$_in_th3_Reg1stry@flare-on.com`
 
 ___
