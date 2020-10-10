@@ -1209,6 +1209,8 @@ flag = 0x6D6F632E6E6F2D6572616C6640733369707075705F306E5F
 We decode "flag", which gives us the last `24` bytes of the flag: `_n0_puppi3s@flare-on.com`.
 
 
+The full script that breaks the flag is here: [break_crack.py](./break_crack.py)
+
 After all, the final flag is `w3lc0mE_t0_Th3_l4nD_0f_De4th_4nd_d3strUct1oN_4nd_n0_puppi3s@flare-on.com`.
 
 ___
