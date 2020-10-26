@@ -202,7 +202,7 @@ shown above. A pair of integers is used to generate a string. For instance:
 regkey_name_1 = j__decode_string_13F8F921C(0xF0Fu, 1u);     // generate --> Languagetheme
 ```
 
-Pair `(0xF0F, 1)` generates string `Languagetheme` where pair `(0x1010, 1)` generates
+Pair `(0xF0F, 1)` generates string `Languagetheme` and pair `(0x1010, 1)` generates
 string `Columncurrent`. The interesting part is that names are based on the magic value
 derived from SID:
 ```C
@@ -302,7 +302,7 @@ After initialization, program reads and decrypts the following entries from regi
 ```
 
 **Note:** To make our shellcode read and write values from registry, where we can inspect them, we set 
-a breapoint at `0x13FA7EEEF`:
+a breakpoint at `0x13FA7EEEF`:
 ```Assembly
 .data:000000013FA7EEB9         mov     rcx, cs:glo_B_13FA3D580
 .data:000000013FA7EEC0         mov     [rcx+0F0h], rax
@@ -352,7 +352,7 @@ typedef struct {
 
 The RSA public key pair `(n, e)` is:
 ```
-00 04 00 00                       <--- 1024
+00 04 00 00                                         <--- 1024
 
 C3 DA 26 3D F1 72 29 33 73 B0 43 1E E0 0B AC 4C     <--- n
 3D B7 23 BE E2 D9 CC C0 A7 EF 8D 03 68 C3 3C 57
@@ -563,9 +563,8 @@ we will get the string `DiMap` as output.
 
 The next step is to find where functions `cs:__imp_d6306e08_57` and `cs:__imp__8576b0d0_79` are imported.
 To do this we check again our name generator and our [rabbithole_mk_str.py](./rabbithole_mk_str.py) script.
-Number `d6306e08` generates name `WordlibSystemser` and number `8576b0d0` generates `WebsoftwareProcesstemplate`.
+Number `d6306e08` generates name `WordlibSystemser` and number `8576b0d0` generates `WebsoftwareProcesstemplate`
 (we ignore the second number of the pair as it only affects the capitalization).
-
 The `_57` and `_79` numbers are the ordinals. Let's see the `_79` function:
 ```C
 __int64 __fastcall _79_decrypt_and_set_regval(__int64 a1, unsigned int a2, __int64 a3, int a4) {
@@ -655,7 +654,6 @@ At this point we know that the flag is stored in `DiMap` registry key. We also k
 that the flag is encrypted using Serpent algorithm and then encrypted again using `43_0`
 function. After some guessing we find that the serpent key is `GSPyrv3C79ZbR0k1`, 
 the one we found in `MonitornewWarningmap`.
-
 In order to decrypt the flag, we first apply the inverse algorithm of `43_0` and then we do a
 Serpent decryption (note that the order is reversed). The inversed algorithm of custom
 encryption is shown below:
