@@ -26,7 +26,7 @@ To recover the key we need a plaintext-ciphertext pair. Since one of the files i
 of its header: `89 50 4E 47 0D 0A 1A 0A`. Thus we can easily recover the key: `No1Trust`.
 
 Once we have the key we can decrypt all files one by one. The flag is inside
-[critical_data.txt](./DecryptedFiles/critical_data.txt):
+[critical_data.txt](./DecryptedFiles/critical_data.txt) (The extra bytes at the end are from the padding):
 ```
 
 (>0_0)> You_Have_Awakened_Me_Too_Soon_EXE@flare-on.com <(0_0<)
