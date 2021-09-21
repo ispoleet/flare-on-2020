@@ -1,0 +1,6 @@
+*.idb
+*.i64
+*.exe
+INTERNAL/
+OTHER/
+
