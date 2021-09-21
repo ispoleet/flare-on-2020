@@ -162,7 +162,7 @@ __int64 u_do_approach_cmd() {
 
 This function takes a name, calculates its CRC32 checksum and searches for that value in 
 `glo_good_crc32_values` struct array at `402000h`. If the entry is found, it asks for a
-quest (which is ignored) and a color. If the CRC32 of the color matches the 2nd struct field
+quest (which is ignored) and a color. If the CRC32 of the color matches the **2nd** struct field
 of the entry, function returns an index. Each entry has the following layout:
 ```
 crc_1 -> CRC32 of author from json file
@@ -205,7 +205,7 @@ E657D4E1h, B4E9FD30h, 17h
 ```
 
 The numbers at the end of each entry correspond to indices since each number appears only
-once and it is a number between 1 and `len(glo_crc_search_array)`. This is also the number
+once and it is a number between `1` and `len(glo_crc_search_array)`. This is also the number
 of directories in the challenge `-1`. The next question is what names could result to these 
 CRC32 checksums? Let's look at a json file:
 ```json
@@ -276,8 +276,6 @@ ab1321cc
 This CRC32 checksum matches the `AB1321CCh, EEEDEAD7h, 04h` entry. That is, it means that
 the files under `09e6fff53d6496d170aaa9bc88bd39e17c8e5c13ee9066935b089ab0312635ef` directory
 are the **4th** layer.
-
-
 The task is clear now: We have to combine the `*.dat` files from each layer in the right
 order and combine them together. The right order is shown below (based on `glo_crc_search_array`
 and the `CRC32(author)` from each `json` file in each directory):
@@ -318,9 +316,9 @@ The question now is how do we combine them? My first approach was to concatenate
 layers together and create a wide map, which would contain the flag as ASCII art. However,
 this approach was not correct. Then the word "layer" made me think that I should place all
 these ASCII "stripes" from each directory, **on top** of each other and **not next** to each
-other. After a log of trial and error, I found the correct approach: *We get the latest dat
-file from each layer and we XOR all them together. By doing that, we can get the flag as an
-ASCII art:
+other. After a lot of trial and error, I found the correct approach:
+**We get the latest *.dat file from each layer and we XOR all them together.**
+By doing that, we can get the flag as an ASCII art:
 ```
 ...............|
 ................
@@ -582,7 +580,7 @@ ASCII art:
 
 Which gives us the flag: `Five-Is-Right-Out@flare-on.com`
 
-For more details, please take a look at the [antioch_crack.py](./antioch_crack) file.
+For more details, please take a look at the [antioch_crack.py](./antioch_crack.py) file.
 
 ___
 
