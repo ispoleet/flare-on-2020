@@ -21,7 +21,7 @@ we use wireshark. First, the client sends the following request:
     ME0W2\x00\x00\x00\x32\x00\x00\x00~meow~ (=^.^=) ~meow~.... can haz MeeooowwwMeme???
 ```
 
-![alt text](images/tcp_packets_1a.png "")
+![alt text](images/tcp_stream_1a.png "")
 
 
 Then, the client send another request:
@@ -29,12 +29,12 @@ Then, the client send another request:
     ME0W8\x00\x00\x00\x38\x00\x00\x00~meow~ (=^.^=) ~meow~.... can haz MeeeeeooooowwWare?????
 ```   
 
-![alt text](images/tcp_packets_1b.png "")
+![alt text](images/tcp_stream_1b.png "")
 
 
 After that, a new connection starts and a large of packets is exchanged:
 
-![alt text](images/tcp_packets_2.png "")
+![alt text](images/tcp_stream_2.png "")
 
 
 Then server replies with a large set of TCP packets. We "follow the TCP stream" and we extract the
