@@ -412,11 +412,11 @@ The 8th byte of the password is: 0x60
 Finally, the `T` ingredients are encrypted using AES. To find the mode, the IV and the key, we have
 to look at the following twitter discussion:
 
-![alt text](twitter_1.png "")
+![alt text](images/twitter_1.png "")
 
 And here:
 
-![alt text](twitter_2.png "")
+![alt text](images/twitter_2.png "")
 
 
 So we have **AES-CBC** with key `Sheep should sleep in a shed15.2` and IV `PIZZA00000000000`.
