@@ -185,7 +185,7 @@ int __usercall SetFile@<eax>(int a1@<esi>, char *a2) {
 ```
 
 This function generates a string `name:rand` (we do not know and we do not care how) and then compares
-its first part agains a set of constant strings (`flotsam`, `jetsam`, `lagan`, `derelict`). Based on
+its first part against a set of constant strings (`flotsam`, `jetsam`, `lagan`, `derelict`). Based on
 that it sets the values of `glo_str_obj_1` to `glo_str_obj_4`.
 Each time we click a fish, the same string is generated. Since we only have **16** fishes, we set
 a breakpoint on `strcmp`, we click on all fishes one by one and we get all possible values value for `v10`:
