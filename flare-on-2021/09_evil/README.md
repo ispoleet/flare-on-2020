@@ -820,7 +820,8 @@ void __thiscall u_decrypt_data(int a1_key, int a2_outbuf, int a3_size) {
 ```
 
 This function takes a key and a ciphertext as input and uses SEAL algorithm to perform the
-decryption. After some search we see that `SEAL` cipher is essentially `RC4`.
+decryption. After some search we see that `SEAL` cipher is essentially `RC4`. There are
+**3** XREFs to `u_decrypt_data` that decrypt different ciphertexts:
 ```c
 memmove(v3, glo_ciphertext_A, Size);    // glo_ciphertext_A at 5B7330h
 u_decrypt_data(glo_key_A, v32, &Size);  
