@@ -91,7 +91,7 @@ V',`)(//\\\||||||||||||_______________..........................
 ................................................................
 ```
 
-Finally, it prints the XORed array in **15**-byte blocks (and ingores every **16**-th block).
+Finally, it prints the XORed array in **15**-byte blocks (and ignores every **16**-th block).
 For example:
 ```
 > consult
@@ -112,7 +112,7 @@ Consult the Book of Armaments!
 > 
 ```
 
-The approach comamnd is handled by the `u_do_approach_cmd` function at `401640h`:
+The approach command is handled by the `u_do_approach_cmd` function at `401640h`:
 ```C
 __int64 u_do_approach_cmd() {
   iter = 0LL;
