@@ -2069,7 +2069,7 @@ know some bytes (at least the first **8**) from the PNG header and we also know 
 is only 24 bytes long.
 
 We already know that the input was a PNG image, so we reuse the
-[wizardcult_crack.py](./wizardcult_crack.py) script to decrypt it. :
+[wizardcult_crack.py](./wizardcult_crack.py) script to decrypt it:
 
 ![alt text](images/cool_wizard_meme.png "")
 
