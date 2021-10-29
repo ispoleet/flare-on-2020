@@ -60,7 +60,7 @@ Binary file .snapshots/1/snapshot/usr/bin/dot matches
 
 Okay, so we have two binaries (`zypper` and `dot`) and a bunch of encrypted files.
 Let's take a look at [zypper](./zypper), which is located under `/usr/bin/zypper`.
-Binary is not sripped, so we can easily understand it:
+Binary is not stripped, so we can easily understand it:
 ```c
 int __cdecl main(int argc, const char **argv, const char **envp) {
   /* ... */
@@ -349,26 +349,28 @@ The 6th byte of the password is: 0x36
 
 To decrypt the `D` ingredients we use the hint: *Felix Delastelle*, which is the inventor of the
 [Bifid cipher](https://en.wikipedia.org/wiki/Bifid_cipher). The key is the missing ingredient from
-natilla, that exist in natillas: **LEMON** (we find it through Google).
+natilla, that exist in natillas: **EGGS** (we find it through Google). We use [CyberChef](https://gchq.github.io/CyberChef/)
 
 **daiquiris.txt:**
 ```
 Qac 7ys hcpe xq cyp typxterl xi: 0m66
+
+The 7th byte of the password is: 0x66
 ```
 
 **donuts.txt:**
 ```
 Din moq agos etcp Ememog Lhobeihz Awttivt ytxtv drwvgoswps?
+
+Did you know that Giovan Battista Bellaso loved microwaves?
 ```
 
 **dumplings.txt:**
 ```
 Abn lef emadkxp frceqdnhe? Tah gdcktm temyku xxo qo ktyhzn! Zd'k raooua, por uda ztykqh.
+
+Are you missing something? You should search for it better! It's hidden, but not really.
 ```
-
-**NOTE:** It seems that online Bifid decryption does not work, but we can still infer from `daiquiris.txt` that
-the **7th** byte of the password is **0x66**.
-
 
 #### Decrypting "O" Ingredients
 
