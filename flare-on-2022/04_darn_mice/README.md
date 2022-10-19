@@ -134,7 +134,7 @@ The ciphertext and the SHA salt are shown below:
 .data:005F90CA                 align 4
 ```
 
-### Getting the Flag
+#### Getting the Flag
 
 The only way to not crash the program is for the byte to be a `retn` instruction
 (`0xC3`). Using that we can decrypt the values and find the correct program input:
