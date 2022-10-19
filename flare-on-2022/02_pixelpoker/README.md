@@ -124,7 +124,7 @@ void __cdecl u_check_pixel_n_decrypt(int x, int y) {
 }
 ```
 
-### Finding the Correct Pixel
+#### Finding the Correct Pixel
 
 To find the correct pixel we need to know `glo_X_mask` and `glo_Y_mask` which contain
 constant values:
