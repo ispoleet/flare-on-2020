@@ -460,6 +460,9 @@ int __cdecl u_custom_decrypt(unsigned int X, unsigned int Y) {
 }
 ```
 
+**NOTE:** This function actually calculates the
+[moon phase](https://www.subsystems.us/uploads/9/8/9/4/98948044/moonphase.pdf).
+
 ```c
 wchar_t __fastcall u_map_to_ascii(int a1) {
   if ( a1 > 26 )
