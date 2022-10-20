@@ -1,0 +1,1027 @@
+C:\Users\ispol\Dropbox\for_share>anode.patched.exe
+Enter flag: 12345678901234567890123456789012345678901234
+stmt #01935
+stmt #00907
+stmt #00354
+stmt #01821 ~> 245
+stmt #01125
+stmt #00767
+stmt #00547
+stmt #01080
+stmt #00109
+stmt #01003
+stmt #01011
+stmt #01988
+stmt #00895
+stmt #00515
+stmt #00285
+stmt #01223
+stmt #02009 ~> 56
+stmt #00410
+stmt #00464 ~> 106
+stmt #01801
+stmt #01791 ~> 61
+stmt #01181
+stmt #01438
+stmt #00910
+stmt #00609
+stmt #01435
+stmt #01252 ~> 189
+stmt #01917
+stmt #01075
+stmt #01908
+stmt #00657
+stmt #00993
+stmt #01890
+stmt #00783
+stmt #00028
+stmt #00101
+stmt #00651
+stmt #00991 ~> 7
+stmt #01649
+stmt #00564
+stmt #00797
+stmt #01606
+stmt #00433
+stmt #02029
+stmt #01302
+stmt #01939 ~> 221
+stmt #01925 ~> 198
+stmt #01267 ~> 251
+stmt #00926
+stmt #01413
+stmt #00922
+stmt #00460
+stmt #00925
+stmt #01931 ~> 146
+stmt #00060
+stmt #00582
+stmt #01091
+stmt #00264
+stmt #01247 ~> 56
+stmt #00628
+stmt #00220
+stmt #00151
+stmt #00644
+stmt #01907
+stmt #00305 ~> 18
+stmt #00551
+stmt #01608
+stmt #01627
+stmt #00276
+stmt #00336
+stmt #01905 ~> 8
+stmt #00263 ~> 140
+stmt #01841
+stmt #00621
+stmt #01219 ~> 153
+stmt #01419
+stmt #01941
+stmt #00826
+stmt #00085
+stmt #01569
+stmt #01443
+stmt #00377
+stmt #01159
+stmt #00625
+stmt #00254 ~> 60
+stmt #00670 ~> 28
+stmt #01406
+stmt #01730
+stmt #01960 ~> 87
+stmt #00315
+stmt #01095 ~> 42
+stmt #00720
+stmt #00035
+stmt #00293
+stmt #00757
+stmt #00555
+stmt #00891
+stmt #01380 ~> 128
+stmt #00572 ~> 156
+stmt #00463 ~> 174
+stmt #01027
+stmt #00362
+stmt #00935
+stmt #01664
+stmt #00443
+stmt #01485 ~> 72
+stmt #00257
+stmt #01279
+stmt #01725
+stmt #01709 ~> 192
+stmt #00951
+stmt #01085
+stmt #01521
+stmt #00549
+stmt #00449 ~> 181
+stmt #01119 ~> 181
+stmt #01196
+stmt #01473 ~> 205
+stmt #00112
+stmt #01339
+stmt #00590
+stmt #01398
+stmt #01959
+stmt #01043
+stmt #01346
+stmt #00980
+stmt #00667
+stmt #01378
+stmt #00739
+stmt #00998
+stmt #01154
+stmt #01013
+stmt #00396
+stmt #01141 ~> 211
+stmt #00795
+stmt #01710
+stmt #01951
+stmt #00159
+stmt #01584
+stmt #00453
+stmt #00741 ~> 240
+stmt #00477
+stmt #00247
+stmt #00691 ~> 108
+stmt #00536
+stmt #01932
+stmt #01637
+stmt #01541
+stmt #01494
+stmt #02046
+stmt #01605
+stmt #01722 ~> 62
+stmt #01646
+stmt #01779
+stmt #01409
+stmt #00371
+stmt #00976
+stmt #00918
+stmt #00496
+stmt #00327
+stmt #00694 ~> 200
+stmt #01551 ~> 98
+stmt #01743
+stmt #01920
+stmt #00382
+stmt #00013
+stmt #00483
+stmt #01623
+stmt #01039
+stmt #00732 ~> 145
+stmt #01526
+stmt #00357
+stmt #00799
+stmt #01464 ~> 152
+stmt #00323
+stmt #01127 ~> 224
+stmt #01318
+stmt #01776
+stmt #01963 ~> 80
+stmt #00260
+stmt #00553
+stmt #00439
+stmt #00784 ~> 234
+stmt #01927 ~> 123
+stmt #00479
+stmt #00331 ~> 132
+stmt #01587
+stmt #00131
+stmt #01077
+stmt #00535 ~> 3
+stmt #01726
+stmt #00680
+stmt #00566
+stmt #02031
+stmt #00765
+stmt #00231
+stmt #01299 ~> 213
+stmt #01613 ~> 34
+stmt #00701
+stmt #00375
+stmt #01375
+stmt #01389
+stmt #01662 ~> 74
+stmt #00081 ~> 26
+stmt #01330
+stmt #00468
+stmt #01947 ~> 125
+stmt #01428
+stmt #01499 ~> 86
+stmt #01261
+stmt #01697
+stmt #00875
+stmt #00639
+stmt #00063 ~> 156
+stmt #00593
+stmt #00334 ~> 5
+stmt #00792
+stmt #00339
+stmt #01257
+stmt #00912
+stmt #00903
+stmt #00654
+stmt #00675
+stmt #00580
+stmt #02037
+stmt #00353
+stmt #01563
+stmt #00773
+stmt #01985
+stmt #01746
+stmt #01301 ~> 117
+stmt #01970 ~> 251
+stmt #01487 ~> 212
+stmt #01193
+stmt #00575
+stmt #00030 ~> 183
+stmt #01705 ~> 244
+stmt #00600
+stmt #01512
+stmt #00399
+stmt #00823
+stmt #00295
+stmt #00325
+stmt #00471
+stmt #00613
+stmt #01533
+stmt #00697
+stmt #00475 ~> 181
+stmt #01427
+stmt #00588
+stmt #00431 ~> 135
+stmt #01803 ~> 123
+stmt #00447
+stmt #00774
+stmt #01555
+stmt #01145
+stmt #00055
+stmt #00347 ~> 141
+stmt #02006
+stmt #01107
+stmt #00148 ~> 131
+stmt #01979 ~> 241
+stmt #01097
+stmt #01489
+stmt #00787
+stmt #01315 ~> 35
+stmt #01445
+stmt #00842
+stmt #01839
+stmt #01040
+stmt #00427 ~> 187
+stmt #00216
+stmt #00672 ~> 155
+stmt #01679
+stmt #00646
+stmt #01965
+stmt #00318 ~> 241
+stmt #02035
+stmt #01403
+stmt #00341
+stmt #01152
+stmt #00513
+stmt #00947
+stmt #01323
+stmt #01230
+stmt #01175 ~> 139
+stmt #00571
+stmt #00614 ~> 69
+stmt #00384
+stmt #01296
+stmt #01720
+stmt #01206 ~> 70
+stmt #01139 ~> 156
+stmt #01783
+stmt #01110
+stmt #01998
+stmt #00306
+stmt #01583
+stmt #01757
+stmt #01501
+stmt #01982
+stmt #00092
+stmt #00069
+stmt #01233
+stmt #01701
+stmt #01799 ~> 177
+stmt #01460
+stmt #00744
+stmt #00904 ~> 120
+stmt #00002
+stmt #01786
+stmt #00144 ~> 210
+stmt #00687 ~> 218
+stmt #01349 ~> 131
+stmt #01068
+stmt #01617
+stmt #00481
+stmt #01631
+stmt #01915
+stmt #01695
+stmt #00104
+stmt #00267 ~> 225
+stmt #00683 ~> 76
+stmt #01881
+stmt #00817
+stmt #00945
+stmt #00139 ~> 2
+stmt #00135
+stmt #01047 ~> 179
+stmt #00123
+stmt #01025
+stmt #00937
+stmt #01307
+stmt #01943
+stmt #00405
+stmt #01451 ~> 185
+stmt #01185
+stmt #01469 ~> 134
+stmt #01189
+stmt #01639
+stmt #00585
+stmt #00467
+stmt #00835
+stmt #01365
+stmt #01066
+stmt #00802
+stmt #00455
+stmt #00702
+stmt #00846
+stmt #00425
+stmt #01447
+stmt #00879 ~> 198
+stmt #01414 ~> 19
+stmt #01007
+stmt #01371
+stmt #00459
+stmt #00390 ~> 223
+stmt #00854 ~> 197
+stmt #01353
+stmt #00963
+stmt #01913
+stmt #00137
+stmt #01168
+stmt #00859
+stmt #00630
+stmt #01699
+stmt #00114 ~> 38
+stmt #00669
+stmt #01807
+stmt #00900
+stmt #01657
+stmt #00677
+stmt #01863
+stmt #00778
+stmt #00597 ~> 75
+stmt #00660
+stmt #02021
+stmt #00873
+stmt #00017 ~> 57
+stmt #01561
+stmt #00781 ~> 246
+stmt #00072
+stmt #01417
+stmt #01194
+stmt #01702 ~> 212
+stmt #01896
+stmt #00024
+stmt #00155
+stmt #01129
+stmt #01202
+stmt #01093
+stmt #00957
+stmt #00127
+stmt #01017 ~> 182
+stmt #01645
+stmt #01239
+stmt #01851
+stmt #00898
+stmt #01143 ~> 92
+stmt #01021
+stmt #00887
+stmt #01420
+stmt #01165 ~> 7
+stmt #01661
+stmt #00369
+stmt #00248
+stmt #01405 ~> 175
+stmt #00493
+stmt #01057 ~> 200
+stmt #00679
+stmt #00519
+stmt #00530
+stmt #01859
+stmt #01343
+stmt #01750
+stmt #01167
+stmt #01259
+stmt #00916
+stmt #00193 ~> 28
+stmt #01122
+stmt #01597
+stmt #00079
+stmt #01967
+stmt #00830
+stmt #01058 ~> 196
+stmt #01831
+stmt #00102
+stmt #00517
+stmt #00637
+stmt #00714
+stmt #00684
+stmt #01889
+stmt #00111
+stmt #01898
+stmt #00033
+stmt #01367
+stmt #01517 ~> 150
+stmt #00864 ~> 95
+stmt #01354
+stmt #01577
+stmt #01115
+stmt #00626
+stmt #01829 ~> 218
+stmt #00633
+stmt #00587 ~> 127
+stmt #01826
+stmt #00169
+stmt #00982
+stmt #01377 ~> 221
+stmt #02025
+stmt #01919
+stmt #00743
+stmt #01341
+stmt #01666
+stmt #00761
+stmt #00206
+stmt #00500 ~> 253
+stmt #01669
+stmt #01083
+stmt #01183 ~> 230
+stmt #00373
+stmt #00174
+stmt #00274
+stmt #01329
+stmt #01969
+stmt #00931
+stmt #00086
+stmt #01029 ~> 166
+stmt #00870 ~> 20
+stmt #01689
+stmt #00811
+stmt #01611
+stmt #00881
+stmt #01506 ~> 200
+stmt #01738
+stmt #00020
+stmt #00507
+stmt #01878
+stmt #00040
+stmt #01265
+stmt #00408
+stmt #01463
+stmt #01295
+stmt #00527
+stmt #01580
+stmt #00171
+stmt #00199 ~> 144
+stmt #00712
+stmt #01714
+stmt #01241 ~> 80
+stmt #01243
+stmt #01624
+stmt #01545
+stmt #00723
+stmt #01121
+stmt #01789 ~> 51
+stmt #01753 ~> 221
+stmt #01493
+stmt #00845
+stmt #01048
+stmt #00734 ~> 200
+stmt #00641
+stmt #01425
+stmt #00599
+stmt #00445
+stmt #01360
+stmt #01200 ~> 21
+stmt #00416
+stmt #01823
+stmt #00173
+stmt #00490 ~> 110
+stmt #00539
+stmt #00090
+stmt #00223
+stmt #00523
+stmt #00296
+stmt #01211
+stmt #01221 ~> 225
+stmt #00969
+stmt #00191
+stmt #01356
+stmt #01635
+stmt #01573
+stmt #00457
+stmt #00850
+stmt #01673
+stmt #00044
+stmt #00251
+stmt #01528
+stmt #00987
+stmt #01567
+stmt #01770
+stmt #01773
+stmt #00753 ~> 148
+stmt #01108
+stmt #01734
+stmt #01471
+stmt #00595 ~> 8
+stmt #00096 ~> 242
+stmt #01524
+stmt #01284
+stmt #01815
+stmt #01893
+stmt #00642
+stmt #00153 ~> 212
+stmt #01559
+stmt #01693
+stmt #00576 ~> 225
+stmt #01659
+stmt #01854
+stmt #00403
+stmt #01401
+stmt #01327 ~> 190
+stmt #01784 ~> 57
+stmt #01385
+stmt #00503
+stmt #01245 ~> 7
+stmt #01061
+stmt #02033 ~> 239
+stmt #00824 ~> 224
+stmt #01170 ~> 165
+stmt #00997
+stmt #01842
+stmt #00790
+stmt #01684
+stmt #00181
+stmt #01187 ~> 188
+stmt #01191
+stmt #01018 ~> 214
+stmt #01619
+stmt #01449
+stmt #00418
+stmt #01391
+stmt #01132
+stmt #01001
+stmt #01459
+stmt #01675
+stmt #00023
+stmt #00989
+stmt #01860
+stmt #02016
+stmt #00421
+stmt #00280
+stmt #00241
+stmt #00525 ~> 145
+stmt #01324
+stmt #00838
+stmt #01179
+stmt #01736
+stmt #00343
+stmt #01205
+stmt #01542
+stmt #01973
+stmt #00652
+stmt #00147 ~> 3
+stmt #00245 ~> 146
+stmt #01601
+stmt #01883
+stmt #01131
+stmt #01911 ~> 160
+stmt #00971 ~> 10
+stmt #00754
+stmt #01136 ~> 19
+stmt #01317
+stmt #00197
+stmt #01775
+stmt #00278
+stmt #01885
+stmt #00345 ~> 77
+stmt #00183
+stmt #00768
+stmt #00185
+stmt #01514
+stmt #01594
+stmt #00711
+stmt #00487
+stmt #00511 ~> 110
+stmt #00451 ~> 254
+stmt #01565
+stmt #01707
+stmt #01641
+stmt #01362
+stmt #00622
+stmt #00213
+stmt #01148
+stmt #01333
+stmt #01620
+stmt #00165
+stmt #00413
+stmt #01156 ~> 7
+stmt #00051 ~> 17
+stmt #00616
+stmt #01073
+stmt #01281
+stmt #00727
+stmt #00333
+stmt #00057
+stmt #00037
+stmt #00242
+stmt #01733 ~> 32
+stmt #01780
+stmt #00010
+stmt #01797
+stmt #00789
+stmt #00121 ~> 228
+stmt #02023
+stmt #00883
+stmt #00359
+stmt #01173
+stmt #00915
+stmt #00849 ~> 122
+stmt #00076
+stmt #01481
+stmt #00896
+stmt #00429
+stmt #00747
+stmt #00004
+stmt #00167 ~> 210
+stmt #01749
+stmt #01857
+stmt #01269
+stmt #00484
+stmt #01795
+stmt #00283
+stmt #01483
+stmt #00953
+stmt #01643
+stmt #00509
+stmt #00665
+stmt #01651
+stmt #01570
+stmt #01729 ~> 254
+stmt #00237 ~> 159
+stmt #01837
+stmt #01817
+stmt #01224
+stmt #01209
+stmt #00227
+stmt #00440
+stmt #01929
+stmt #00177
+stmt #00579
+stmt #01865
+stmt #00489
+stmt #01217 ~> 154
+stmt #01923 ~> 5
+stmt #00809
+stmt #02027 ~> 160
+stmt #00718
+stmt #01337
+stmt #01087
+stmt #01063
+stmt #01051
+stmt #00762
+stmt #00558
+stmt #00229
+stmt #00693
+stmt #01505 ~> 197
+stmt #00939 ~> 142
+stmt #01712
+stmt #00749 ~> 205
+stmt #01101
+stmt #01846
+stmt #00415
+stmt #00840
+stmt #00805
+stmt #01234
+stmt #01311
+stmt #00836
+stmt #00071
+stmt #00853 ~> 177
+stmt #01226
+stmt #00777
+stmt #00015
+stmt #01177
+stmt #01287
+stmt #01744
+stmt #00635
+stmt #01805
+stmt #01763 ~> 176
+stmt #01262
+stmt #00187
+stmt #00298
+stmt #02019
+stmt #00857
+stmt #00201
+stmt #00239
+stmt #02000
+stmt #00215
+stmt #01215 ~> 240
+stmt #01160
+stmt #01350
+stmt #01293
+stmt #01163 ~> 170
+stmt #01496 ~> 120
+stmt #00908 ~> 112
+stmt #01456
+stmt #01509
+stmt #01373
+stmt #01590 ~> 187
+stmt #00089
+stmt #00107
+stmt #01151
+stmt #01255
+stmt #01740
+stmt #00219
+stmt #01014
+stmt #01112
+stmt #01055
+stmt #01147 ~> 89
+stmt #01593
+stmt #01957 ~> 149
+stmt #00321
+stmt #01835
+stmt #01845
+stmt #00985
+stmt #00067
+stmt #00235
+stmt #00556 ~> 89
+stmt #00568
+stmt #00499
+stmt #00365 ~> 50
+stmt #01433
+stmt #01809
+stmt #00861
+stmt #01079
+stmt #01903 ~> 116
+stmt #00955
+stmt #01813
+stmt #02038 ~> 106
+stmt #01574 ~> 113
+stmt #01987
+stmt #00129
+stmt #01045
+stmt #00053
+stmt #00863
+stmt #00007
+stmt #00225 ~> 246
+stmt #01578
+stmt #01031 ~> 89
+stmt #00141
+stmt #01758
+stmt #01104 ~> 1
+stmt #00009 ~> 30
+stmt #00529
+stmt #01849
+stmt #01677
+stmt #01981
+stmt #00736 ~> 20
+stmt #00379 ~> 238
+stmt #01477 ~> 84
+stmt #01312
+stmt #00533 ~> 243
+stmt #00770
+stmt #00116 ~> 20
+stmt #01993
+stmt #01598
+stmt #00717
+stmt #01655 ~> 149
+stmt #00065
+stmt #00381
+stmt #00203 ~> 18
+stmt #01135
+stmt #01691
+stmt #01277
+stmt #01761
+stmt #01537
+stmt #00473 ~> 74
+stmt #00000 ~> 60
+stmt #00708
+stmt #00979
+stmt #00125
+stmt #01955
+stmt #01873
+stmt #00039
+stmt #01602 ~> 159
+stmt #01034 ~> 62
+stmt #01523
+stmt #01103
+stmt #00833
+stmt #01274 ~> 243
+stmt #00389
+stmt #00163
+stmt #01033
+stmt #01716 ~> 255
+stmt #00310
+stmt #01557
+stmt #00893
+stmt #01089
+stmt #00867
+stmt #00885
+stmt #01895
+stmt #00189
+stmt #01369
+stmt #00819
+stmt #00814
+stmt #01479
+stmt #01387 ~> 175
+stmt #01810
+stmt #01392
+stmt #00563
+stmt #00423
+stmt #00434 ~> 15
+stmt #00157
+stmt #00360
+stmt #00960
+stmt #00974
+stmt #01009
+stmt #00195
+stmt #00133
+stmt #01491
+stmt #00303
+stmt #00082
+stmt #00995 ~> 108
+stmt #00812
+stmt #01270
+stmt #00018
+stmt #01949 ~> 127
+stmt #01335
+stmt #00095
+stmt #01023
+stmt #01901
+stmt #01990
+stmt #01589
+stmt #00820 ~> 250
+stmt #02012
+stmt #00143 ~> 58
+stmt #00351
+stmt #00543
+stmt #00560
+stmt #01531
+stmt #00920
+stmt #01768
+stmt #01320
+stmt #00619
+stmt #00699
+stmt #00367 ~> 92
+stmt #00179
+stmt #00658
+stmt #01288
+stmt #00119 ~> 234
+stmt #00271
+stmt #00705
+stmt #00407
+stmt #01431
+stmt #01397
+stmt #00521
+stmt #01539
+stmt #01870
+stmt #00928
+stmt #00211
+stmt #01671
+stmt #01997
+stmt #01653
+stmt #00605 ~> 122
+stmt #01833 ~> 140
+stmt #02011
+stmt #00290
+stmt #01767
+stmt #01423
+stmt #01875 ~> 123
+stmt #01819
+stmt #01867
+stmt #00973
+stmt #01455
+stmt #01070 ~> 6
+stmt #00689
+stmt #01004
+stmt #00941
+stmt #00313
+stmt #00387 ~> 194
+stmt #01825
+stmt #00663
+stmt #01975
+stmt #00724
+stmt #01853
+stmt #01765
+stmt #01614
+stmt #00889 ~> 48
+stmt #00289
+stmt #00751 ~> 136
+stmt #01792
+stmt #00541
+stmt #00828 ~> 37
+stmt #01681
+stmt #01251
+stmt #00392
+stmt #00253
+stmt #00505
+stmt #00495
+stmt #01467
+stmt #00603
+stmt #00075
+stmt #01437
+stmt #00273
+stmt #01116 ~> 2
+stmt #00877
+stmt #01937 ~> 216
+stmt #01441
+stmt #02042 ~> 25
+stmt #00098
+stmt #01065
+stmt #00259
+stmt #01382
+stmt #01547
+stmt #01212
+stmt #00049 ~> 123
+stmt #02044
+stmt #01291
+stmt #01052
+stmt #00329
+stmt #00707
+stmt #01099 ~> 246
+stmt #00649
+stmt #00208
+stmt #01237 ~> 94
+stmt #00042
+stmt #01511 ~> 90
+stmt #00204 ~> 130
+stmt #01283
+stmt #00967 ~> 117
+stmt #01228
+stmt #00807 ~> 248
+stmt #00544
+stmt #01877
+stmt #00027 ~> 108
+stmt #01686
+stmt #00607
+stmt #01976
+stmt #01359 ~> 127
+stmt #01304
+stmt #01037 ~> 127
+stmt #00317
+stmt #01549 ~> 221
+stmt #01453
+stmt #00286
+stmt #01952
+stmt #00349
+stmt #00959
+stmt #01868
+stmt #01272
+stmt #00269
+stmt #01535
+stmt #01502 ~> 135
+stmt #00308 ~> 172
+stmt #01995
+stmt #00437
+stmt #02004
+stmt #00965
+stmt #00059 ~> 49
+stmt #00233
+stmt #00933 ~> 131
+stmt #01411 ~> 186
+stmt #01309
+stmt #02015
+stmt #01719
+stmt #01519
+stmt #01887
+stmt #00301
+stmt #01633
+stmt #01944
+stmt #01553
+stmt #00610
+stmt #01249 ~> 89
+stmt #01629
+stmt #00729
+stmt #00161
+stmt #01683
+stmt #00047
+stmt #01755
+stmt #00943 ~> 154
+stmt #00949
+stmt #00400
+stmt #02040
+stmt #00869 ~> 241
+stmt #01394
+stmt #01344
+stmt #01199
+stmt #00731
+stmt #00759
+stmt #01475 ~> 179
+stmt #00800
+stmt #02003 ~> 50
+stmt #00395
+Try again.
