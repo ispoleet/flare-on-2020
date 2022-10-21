@@ -305,9 +305,11 @@ print('~~~~>', repr(''.join(chr(k) for k in key)))
 ```
 
 We see that the key gets repeated (`Hast`), so we can conclude that the correct key is:
-`Hast du etwas Zeit f\x9fr mi\x89h?` (with the German letters), so we use it to get the flag.
-For more details, you can refer to the [nur_getraumt_crack.py](./nur_getraumt_crack.py) script.
+`Hast du etwas Zeit f\x9fr mi\x89h?` (with the German letters), so we use it to get the flag:
 
+![alt text](images/vmac_19.png "")
+
+For more details, you can refer to the [nur_getraumt_crack.py](./nur_getraumt_crack.py)
 
 The flag is: `Dann_singe_ich_ein_Lied_fur_dich@flare-on.com`
 ___
