@@ -119,7 +119,7 @@ ispo@localhost:~/ctf/flare-on-challenges/flare-on-2022/09_encryptor$ hexdump -C 
 0000040c
 ```
 
-Encrypted file contains **9** bytes for the ciphertext (exactly as many as they are for
+Encrypted file contains **8** bytes for the ciphertext (exactly as many as they are for
 the plaintext and then contains **4** bignums of **1024** bits each). From this we can tell
 that we have a **stream cipher** (if we had a block cipher the ciphertext size would be a
 multiple of **16**, **32**, or some other power of **2**). We can also tell that the key of
