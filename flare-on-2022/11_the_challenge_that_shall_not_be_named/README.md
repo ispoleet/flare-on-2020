@@ -1,4 +1,4 @@
-## Flare-On 2022 - #11 The challenge that shall not be named.
+## Flare-On 2022 - #11 The challenge that shall not be named
 ___
 
 ### Description: 
