@@ -204,6 +204,5 @@ Since we have everything now, we can decrypt the images:
 
 For more details, please refer to the [its_on_fire_crack.py](./its_on_fire_crack.py) script.
 
-
 So the flag is: `Y0Ur3_0N_F1r3_K33P_601N6@flare-on.com`
 ___
