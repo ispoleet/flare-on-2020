@@ -40,7 +40,7 @@ if __name__ == "__main__":
     print('[+] Program finished. Bye bye :)')
 
 # ----------------------------------------------------------------------------------------
-"""
+r"""
 [+] It's On Fire crack started.
 [+] Decrypting image: iv.png ...
 [+] IV is: b'abcdefghijklmnop'
