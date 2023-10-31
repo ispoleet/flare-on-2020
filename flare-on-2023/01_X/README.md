@@ -66,4 +66,3 @@ If we also set the digits to **42**, we can get the flag printed:
 
 So the flag is: `glorified_captcha@flare-on.com`
 ___
-
