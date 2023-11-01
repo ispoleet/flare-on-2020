@@ -244,6 +244,70 @@ if __name__ == "__main__":
 
 # ----------------------------------------------------------------------------------------
 '''
-
+ispo@ispo-glaptop2:~/ctf/flare-on-challenges/flare-on-2023/05_where_am_i$ ./where_am_i_shellcode_deobf.py 
+[+] Where am I? shellcode deobfuscator started.
+[+] Processing function 0x02550000
+[+] Visiting shellcode at address 0x02550000 ...
+[+]   .text:02550000 (000h) push ebp
+[+]   .text:02550001 (001h) jmp 0x25500b0
+[+]   .text:025500B0 (001h) jmp 0x2550202
+.....
+[+]   Adding a jump to offset EDh
+[+] Fixing jump at 0x0255646E in offset 0BDh. New offset: 0EBh 6
+[+] Fixing jump at 0x0255667A in offset 0E5h. New offset: 0FEh 6
+[+] ~ = ~ = ~ = DEOBFUSCATED FUNCTION 0x02550000 (02550000h) = ~ = ~ = ~
+[+]   .text:02550000 push ebp   
+[+]   .text:02550001 mov ebp, esp   
+[+]   .text:02550003 sub esp, 0x10   
+[+]   .text:02550006 push edx   
+[+]   .text:02550007 push esi   
+[+]   .text:02550008 mov esi, 0xa26e6d50   
+[+]   .text:0255000D xor esi, 0xf0dec85a   
+[+]   .text:02550013 xor esi, 0x1483e3fd   
+[+]   .text:02550019 sub esi, 0x5cd29bea   
+[+]   .text:0255001F xor esi, 0xcddaaa8a   
+[+]   .text:02550025 sub esi, 0x9ce3af01   
+[+]   .text:0255002B xor esi, 0x87d6d281   
+[+]   .text:02550031 mov dword ptr [esp + 4], esi   
+[+]   .text:02550035 pop esi   
+[+]   .text:02550036 call dword ptr [0x460210]   
+[+]   .text:0255003C call 0x2551400   
+.....
+[+] Processing function 0x02552CFF
+[+] Function at: 0x02550000
+[+] Function at: 0x025526C1
+[+] Function at: 0x025529C5
+[+] Function at: 0x02552BC7
+[+] Function at: 0x025564E7
+[+] Function at: 0x025521AB
+[+] Function at: 0x0255620D
+[+] Function at: 0x0255380D
+[+] Function at: 0x0255438F
+[+] Function at: 0x025519F0
+[+] Function at: 0x02550E2F
+[+] Function at: 0x02552B3E
+[+] Function at: 0x02551534
+[+] Function at: 0x02550A74
+[+] Function at: 0x02554DDE
+[+] Function at: 0x02552CFF
+func_map = {
+    0x02550000: 0x02550000,
+    0x02551534: 0x025502A6,
+    0x02552BC7: 0x02550351,
+    0x0255380D: 0x02550912,
+    0x0255620D: 0x0255099D,
+    0x025519F0: 0x02550A46,
+    0x02550A74: 0x02550C3D,
+    0x025526C1: 0x02551E97,
+    0x0255438F: 0x02551F60,
+    0x02554DDE: 0x025520CB,
+    0x025529C5: 0x02552AA3,
+    0x02550E2F: 0x0255364F,
+    0x025521AB: 0x025537BB,
+    0x025564E7: 0x02554AFB,
+    0x02552B3E: 0x02554C6F,
+    0x02552CFF: 0x02554E00,
+}
+[+] Now paste `func_map` into the script and re-run the code.
 '''
 # ----------------------------------------------------------------------------------------
