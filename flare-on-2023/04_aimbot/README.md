@@ -17,7 +17,7 @@ the next shellcode.
 
 When we run the program, shows a window with a single button:
 
-![alt text](images/game1.png "")
+![alt text](aimbot_button.png "")
 
 We click it and nothing happens. If we follow `WinMain` we find the click button handler at
 `0x402150` (`u_button_handle`):
