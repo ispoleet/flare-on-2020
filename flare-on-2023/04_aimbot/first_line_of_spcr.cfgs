@@ -1,0 +1,272 @@
+loadsky socksky/mars
+// Aastha.cfg by firefly & Nieb with Hibernaculum (November 2020)
+texturereset    // starts the texture slot/index at 0
+texturereset
+mapsound "kaiser/fx/hum7.wav" 150 2
+texturereset
+//fog 1200
+mapmodelreset 186
+// config file for
+// Albatross by Ryan Brucks, Sauerbraten remake by Kv
+// CC-BY-NC, Windecker
+texturereset
+mapsound soundsnap/fan 64
+fog 768
+fog 1500
+fog 10000
+//special thanks to: hero (base placement / weapon placement)
+texturereset
+mapsound soundtransit/seashore 45 1
+//Asgard by Meister 2010/2011
+// Asteroids - by Blindabuser 2008 | www.magurno.com
+minimapclip 1
+minimapclip 1
+
+// Awoken.cfg (Aug 2020)
+minimapheight 2270
+// config file for
+mapmodelreset
+texturereset
+minimapclip 1
+// config file for
+loadsky "dash/moon"
+minimapclip 1
+
+// Casa by Akari
+loadsky socksky\desert
+// CC BY-NC-SA, sinsch
+loadsky "socksky/desert"
+// Clash
+// TEXTURES
+texturereset    // starts the texture slot/index at 0
+texturereset    // starts the texture slot/index at 0
+mapsound "kaiser/fx/hum7.wav" 150 2
+texturereset    // starts the texture slot/index at 0
+loadsky "hazel/green"
+loadsky "hazel/green"
+mapmsg "Corruption by Kaiser"
+//---crnsp1 cfg V:1.1
+mapmodelreset 205
+mapsound "ambience/fire_light.ogg" 255 5
+
+texturereset
+//skybox "skyboxes/clearsky052"
+loadsky ratboy\skyboxes\coward
+// Daemex
+loadsky staffy/staffy 1
+
+skytexture 0
+alias base_1 "The Boxes"
+mapmsg "Desecration by KaiserTodretter"
+base_1 = "the ^fs^f2Mayor's House^fr"
+// Disc.cfg (November 2020)
+// MAPMODELS
+fog 800
+loadsky "socksky/desert"
+minimapclip 1
+mapmodelreset
+// dopamine by Getridou
+//loadsky "staffy/staffy" 0.2
+loadsky hazel/green
+//Duel7 by t-chen
+causticscale 25
+ambient 35
+
+// Earthsea
+//mapmodels by pyccna, and downloaded from quadropolis.
+mapmodelreset
+texturereset
+maptitle "^f3Map made ^f1by ^f2Zeronic^f1, ^f2HeWho^f1, ^f2Cooper^f1, and ^f2Eihrul"
+loadsky "socksky/frozendusk"
+//description
+//"Exit Strategy by mIscreant"
+texturereset
+loadsky staffy/staffy -0.2
+texturereset
+fog 10000
+loadsky "skyboxes/morning"
+//*****************************************************
+//*****************************************************
+skybox "skyboxes/clearsky052"
+//textures
+mapmsg "Forge by mIscreant"
+texturereset
+texturereset
+
+texturereset
+loadsky "ratboy/skyboxes/coward"
+fog 450
+adaptivesample 1
+// 7YearWitch
+//Fury by t-chen
+base_1 = "^fs^fs^f3red^fr ^f2shells^fr"
+adaptivesample 1
+
+// BASES
+skybox "ik2k/env/iklake"
+//mapmsg "Hades by Kaiser"
+//bases
+mapsound "kaiser/fx/hum7.wav" 150 2
+texturereset
+texturereset
+mapsound "kaiser/fx/hum7.wav" 150 2
+texturereset    // starts the texture slot/index at 0
+texturereset 1680
+alias base_1 "West Pavillion"
+texturereset
+loadsky "skyboxes/evilsky" 1.5
+texturereset
+texturereset
+mapsound "soundtransit/distant_storm" 450 1
+mapmsg "Infamy by Kaiser"
+mapsound "ambience/fire_light" 290 //1. Fire holder (yes that's what they are actually called, lol) 
+texturereset    // starts the texture slot/index at 0
+mapsound "kaiser/fx/hum7.wav" 150 2
+// A relentless fight outside of Ogro's Pizzeria!
+adaptivesample 1
+loadsky "socksky/desert"
+mapsound "ambience/fire_light" 220 -1 //1. Fire holders// Pottery World - Pablo "RatBoy" Ciamarra
+fog 500
+fog 800
+// Kiryu
+
+texturereset 
+// loadsky "socksky/valley"
+loadsky "socksky/mars"
+loadsky socksky/mars
+
+// ============================
+loadsky mayhem/eclipse
+loadsky staffy/staffy
+loadsky "<compress:2>blindabuser/blindasky" 0.8
+//description
+texturereset
+
+loadsky "dash/moon"
+texturereset
+//mbt2 by t-chen
+adaptivesample 0
+
+//MODELS
+// capture
+//Memoria by Salatiel
+minimapheight 686
+loadsky "socksky/emerald"
+loadsky "socksky/desert"
+loadsky "staffy/staffy"
+
+//Mill by Meister 2011
+loadsky ratboy/skyboxes/coward
+texturereset
+
+// 05-15-08
+// AN ARMY OF ONE by MitaMAN: PART I
+// AN ARMY OF ONE by MitaMAN: PART II
+// AN ARMY OF ONE by MitaMAN: PART III
+// 03-30-08
+// 03-30-08
+// 03-30-08
+loadsky staffy/staffy -1
+loadsky "<compress:2>blindabuser/blindasky"
+texturereset 1028
+//shadowmapambient 0x605040
+texturereset
+mapmsg "^f0Nitro ^f2by ^f3Fatum ^f4(with much help from Meister)"
+//Config file for NMP4
+
+loadsky "socksky/mars"
+minimapheight 335
+fog 10000
+loadsky "dash/moon"
+texturereset
+loadsky "penguins/arid"
+maptitle "^f3oldschool ^f4- by ^f6rabe ^f4(2018)"
+loadsky "aftas/sky/orbe"
+loadsky "staffy/staffy" -0.2       
+mapsound "kaiser/fx/hum7.wav" 150 2
+mapsound soundsnap/fan 64
+texturereset
+minimapclip 1
+
+mapmsg "Paradigm by Kaiser"
+//TEXTURES
+mapsound "kaiser/fx/hum7.wav" 150 2
+skytexture 0
+// "Phizogro-capture" by Philipp (the wurfel)
+// "Phosgene" by Philipp
+mapmodelreset
+fogcolour 0x000000
+//cloudlayer
+// Purgatory by Frosty & Nieb
+texturereset    // starts the texture slot/index at 0
+//Recovery by Redon
+mapmsg "Redemption by Kaiser"
+mapmsg "Refuge by mIscreant"
+texturereset
+texturereset
+loadsky "skyboxes/morning"
+mapmodelreset
+//BASES
+fog 100000
+// River Keep by Fatality - 2019
+mapsound /ambience/wind.ogg
+texturereset
+loadsky staffy/staffy -0.2
+//Config file for, demomap by Nieb
+//loadsky "socksky/mars"
+
+texturereset
+loadsky socksky/grave
+
+//maptitle
+loadsky "darc/forge"
+mapmsg "Serenity by Kaiser"
+
+// Shellshock II
+
+fog 3000
+mapsound soundtransit/seashore 50 2
+skybox "skyboxes/darkness"
+// skrsp1 by James 'Skur' Rucks 2013
+texturereset
+// Slingshot
+mapsound "soundtransit/distant_storm.ogg"
+mapmodelreset
+mapsound ambience/forest1.ogg 255
+minimapclip 1
+// Sauer Stadium
+//maptitle
+//  by Lazy [HUN] (tgabor.mail@gmail.com)
+minimapheight 478
+mapmsg "Suburb by Vincent Revision by vaQ'-clan"
+mapmodelreset
+mapmodelreset 186
+//loadsky "aftas/sky/orbe"
+//
+//level_fm by Fatum and Meister 2010/2011
+
+// tejen.cfg
+minimapclip 1
+
+loadsky "staffy/staffy"
+fog 1000
+texturereset    // starts the texture slot/index at 0
+maptitle "^f0toxicity ^f4by ^f8Doko ^f4and ^f8Pyccna"
+
+materialreset
+loadsky "ratboy/skyboxes/coward"
+loadsky hazel/green
+// default settings for maps
+texturereset
+texturereset
+texturereset
+loadsky "socksky/nightball"
+//loadsky "socksky/frozendusk"
+loadsky "socksky/emerald"
+//ventania map vars
+loadsky skyboxes/evilsky
+texturereset    // starts the texture slot/index at 0
+loadsky "dash/moon"
+texturereset
+mapsound "ambience/fire_light" 220 -1 //1. Torchestexturereset    // starts the texture slot/index at 0
+mapmodelreset
