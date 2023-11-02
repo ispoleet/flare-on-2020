@@ -215,7 +215,7 @@ for name in dir(sys.modules[__name__]):
 
 ```
 
-We suspend the program before we loose and we inject the `PyInjector-x64.dll` into the process. If
+We suspend the program before we lose and we inject the `PyInjector-x64.dll` into the process. If
 everything goes well, we will see the following on the terminal
 ```
 [!] configuration file found and decoded with key - using demo configuration
@@ -444,8 +444,7 @@ print(f'[+] New Snake.length: {Snake.length}')
 Then we resume execution and we eat a few foods and until the score becomes `10007`. Then we die
 and we get the flag:
 
-![alt text](images/flake_win.png "")
-
+![alt text](images/flake_win.PNG "")
 
 
 An alternative way is to simply invoke `get_flag`. We call it without any arguments and we get
