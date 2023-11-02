@@ -335,25 +335,7 @@ seg000:04B7 u_game_loop endp
 ```
 
 First things first, all strings are encrypted using a single byte XOR. Function `u_str_decrypt_xor`
-takes **3** arguments (`si`:
-
-```
-CF 91 00 CB 17 98 22 9A  E2 A1 B4 06 36 87 6A C7
-4B 65 D4 5B EC 02 4E 97  27 03 7F 43 31 73 23 17
-C9 93 1E 7A 95 87 F7 B0  B1 7C 23 A8 78 86 6F CB
-C2 11 21 1F 7A BD 9D 43  BD 59 56 F4 3F D2 2A F2
-
-5A EB D4 60 5C 51 72 EF  EE 03 12 54 99 65 B5 D6
-63 23 3C BC AA EE CD BE  2D F3 A7 1E D3 DD 85 29
-56 98 8B CB 66 3E D4 46  DE 77 45 02 A8 B7 AA DD
-8C 9E F0 6D E3 61 86 92  1F EA E0 33 1C 3D 2C 6A
-
-9E A1 72 B4 8A F4 5F 57  B6 53 7D 34 F5 9C 75 74
-26 38 F8 D9 F1 E8 FE B8  92 EA F3 6B 1C 6E B0 4A
-85 66 74 9E E4 B1 03 47  F0 71 87 0B 18 74 84 5C
-15 FD AE B0 11 72 7D 3D  04 89 81 D2 E3 2C 19 79
-```
- the encrypted string, `cx`:the string length and `dx`: the decryption
+takes **3** arguments (`si`:the encrypted string, `cx`:the string length and `dx`: the decryption
 key):
 ```assembly
 seg000:032D u_str_decrypt_xor proc near             ; CODE XREF: u_decrypt_strings+12↓p
@@ -921,7 +903,7 @@ we can do a brute force: For every possible seed, we generate an arrow sequence 
 long and we compute the `bignum`. Then we check if the checksum of the `bignum` is `0x31D9F5FF`.
 If it is, we have found the correct key.
 
-We let our script run and after a while we find that the correct seed is `11274`, which gives the
+We let our script run and after a while we find that the correct seed is `3082`, which gives the
 following sequence:
 ```
   KPKMPHPMMHMMPMPKHMHKKMKKHKPPMKMPPKPHMPHHKPKHHPHMMHMMPHPMMMMKKMKK
