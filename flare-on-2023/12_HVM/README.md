@@ -711,7 +711,7 @@ void __fastcall u_xor(__int64 a1, _BYTE *arg3) {
 ```
 
 After the encryption is complete, we return back to `sub_A74`, where we call `u_decrypt_next_7`
-(which slides down to `u_memcmp`) to compare the result with the original buffer:
+(which slides down to `u_memcmp`) to compare the result with the original buffer (i.e., `argv[1]`):
 ```c
 _BOOL8 __fastcall u_memcmp(__int64 a1, int a2) {
   /* ... */
