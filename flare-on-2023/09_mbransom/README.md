@@ -29,7 +29,6 @@ The goal here is to enter the correct key:
 
 ![alt text](images/mbransom_main.png "")
 
-
 The first challenge is to get the code that is being executed. There is a very interesting
 [write-up](https://ctftime.org/writeup/31391) for a similar challenge, so we will use `qemu` 
 instead:
