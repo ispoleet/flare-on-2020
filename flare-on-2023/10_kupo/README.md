@@ -534,7 +534,7 @@ we see that *You'll need Ken Thompson's password, which I trust you'll be able t
 search for
 [Ken Thompson's UNIX Password](https://www.reddit.com/r/sysadmin/comments/dflpr5/ken_thompsons_unix_password/),
 which is `p/q2-q4!`. Finally, we do not know is the that `decode` and `decrypt` are applied.
-After some trial and error we find that it is `decrypt`-then-`decode`. We run them through the
+After some trial and error we find that it is `decrypt`-then-`decode`. We run them through the 
 ciphertext and we get the flag.
 
 We can also get the flag from the `adb` console:
