@@ -791,7 +791,6 @@ We try these values and we get the flag:
 
 ![alt text](flag.png "")
 
-
 For more details, please refer to the [hvm_crack.py](./hvm_crack.py) script.
 
 So the flag is: `c4n_i_sh1p_a_vm_as_an_exe_ask1ng_4_a_frnd@flare-on.com`
