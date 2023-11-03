@@ -334,7 +334,7 @@ int main(int argc, char *argv[]) {
     printf("Starting bignum program ...\n");
 
     char *arg1 = "FLARE2023FLARE2023FLARE2023FLARE2023\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
-    char *arg2 = "SVNQT0xFRVRERUFEQkVFRg=="; //ISPOLEETDEADBEEF
+    char *arg2 = "zBYpTBUWJvf9MUH4KtcYv7sdUVUPcjOCiU5G5i63bb+LLBZsAmEk9YlNMplv5SiN";    
 
     uint32_t offset = 0xBC4 - 0xA7; // entry is at 0xBC4.
     int (*ret)(char*, char*) = (int(*)(char*, char*))((uint64_t)shellcode + offset);
