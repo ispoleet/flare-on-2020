@@ -362,7 +362,6 @@ After the encryption, program uses the RSA public key to encrypt the following d
 The `.d3crypt_m3` file contains the RSA ciphertext in the first **256** bytes and after that is the
 encrypted file using [Salsa20](https://en.wikipedia.org/wiki/Salsa20).
 
-
 #### Breaking RSA Ciphertext
 
 Our goal is to decrypt the `very_important_file.d3crypt_m3` file. The problem is that we do not
