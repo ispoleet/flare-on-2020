@@ -576,7 +576,7 @@ messages from `M4st3r Y0d4` which originate from the first thread:
 
 We also decrypt the image, however the flag is not there:
 
-![alt text](images/fake_flag.png "")
+![alt text](images/fake_flag.jpg "")
 
 
 #### Reversing First Thread
