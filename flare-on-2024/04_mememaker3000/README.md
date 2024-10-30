@@ -150,7 +150,7 @@ The values of `b`, `c` and `d` contain the meme texts:
 
 To get the flag (in `f`), we set the correct values to `a`, `b`, `c` and `d`:
 
-![alt text](images/arr_eval.png "")
+![alt text](images/flag.png "")
 
 So the flag is: `wh0a_it5_4_cru3l_j4va5cr1p7@flare-on.com`
 
