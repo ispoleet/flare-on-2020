@@ -1,4 +1,4 @@
-## Flare-On 2024 - #2 checksum
+## Flare-On 2024 - #3 aray
 ___
 
 ### Description: 
@@ -591,5 +591,4 @@ rule flareon { strings: $f = "1RuleADayK33p$Malw4r3Aw4y@flare-on.com" condition:
 For more details, please take a look at the [aray_crack.py](./aray_crack.py) script.
 
 So the flag is: `1RuleADayK33p$Malw4r3Aw4y@flare-on.com`
-
 ___
