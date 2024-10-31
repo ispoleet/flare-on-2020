@@ -166,7 +166,7 @@ Received message:                                 L#��m,.d������
 
 And we get the flag!
 
-Another way to solve is to follow the challenge description and modify the `finish` line 
+Another way to solve this, is to follow the challenge description and modify the `finish` line 
 (i.e., change it to `finish <= 1'b1;`) in `bloke2b_tb`:
 ```verilog
     // Run a string through the hash machine.
@@ -182,7 +182,7 @@ Another way to solve is to follow the challenge description and modify the `fini
 
         // Set our start and finish lines correctly.
         start <= 1'b1;
-        finish <= 1'b0; // Change it from: finish <= 1'b0; 
+        finish <= 1'b1; // Change it from: finish <= 1'b0; 
         @(posedge clk);
         start <= 1'b0;
         finish <= 1'b0;
