@@ -14,6 +14,9 @@ ___
 
 ### Solution:
 
+> NOTE: `sshd.7z` is too big. You can download it from
+> [here](https://www.dropbox.com/scl/fi/w1txftw3p3j6nmrqrsmye/sshd.7z?rlkey=l4lhtr1evqltaj7mnh4p1xm6u&st=dv4i1m0l&dl=0).
+
 From the challenge name we can expect something related to the famous 
 [liblzma](https://www.openwall.com/lists/oss-security/2024/03/29/4) backdoor which became public
 earlier this year. The
