@@ -554,11 +554,15 @@ ___
 
 ### Recovering the Shared Secret
 
-We are also given a `capture.pcapng` with the encrypted communication, so our goal is to recover
-the shared secret and then decrypt the communication. After a lot of searching on the possible
-attacks on Elliptic Curve Diffie-Hellman, we found the 
-[Pohlig-Hellman](https://crypto.stackexchange.com/questions/81851/pohlig-hellman-and-small-subgroup-attacks) attack. For this attack to work, the Elliptic
-Curve parameters `a` and `b` should not be prime numbers; and they are **not**.
+We are also given a `capture.pcapng` with the encrypted communication:
+
+![alt text](images/encr_packets.png "")
+
+Our goal is to recover the shared secret and then decrypt the communication.
+After a lot of searching on the possible attacks on Elliptic Curve Diffie-Hellman, we found the
+[Pohlig-Hellman](https://crypto.stackexchange.com/questions/81851/pohlig-hellman-and-small-subgroup-attacks)
+attack. For this attack to work, the Elliptic Curve parameters `a` and `b` should not be prime
+numbers; and they are **not**.
 
 We know `k*G = (x1, y1)` and we want to find `k`.
 
