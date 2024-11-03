@@ -575,6 +575,8 @@ we know that *the order of every subgroup divides the order of group G*. Thus, i
 discrete logarithm for every subgroup (e.g., prime factor) we can use the
 [Chinese Remainder Theorem (CRT)](https://en.wikipedia.org/wiki/Chinese_remainder_theorem),
 to find the discrete logarithm of the group.
+[This](https://risencrypto.github.io/PohligHellman/#pohlig-hellman-for-elliptic-curve-cryptography)
+article explains the concept in more detail.
 
 The (first) point in the Curve that we have from the communication is:
 ```
