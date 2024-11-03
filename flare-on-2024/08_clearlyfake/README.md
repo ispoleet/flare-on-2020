@@ -162,7 +162,16 @@ Since we do not how Web3 works, we read through:
 [Intro to Web3.js - Ethereum Blockchain Developer Crash Course](https://www.dappuniversity.com/articles/web3-js-intro).
 
 
-We start with the Smart contract `0x9223f0630c598a200f99c5d4746531d10319a569` which we can find
+The `callContractFunction` calls smart contract `0x9223f0630c598a200f99c5d4746531d10319a569` with
+a prefix `0x5684cff5` and an (unknown - we have to figure it out) "key" and receives a back a base64
+encoded address which stores it in `decoded_output.txt`. Then it makes a new call to the new
+contract with the prefix `0x5c880fcb` and stores the received data (`string` parameter) into
+`decoded_output.txt`.
+
+> NOTE: It looks like function makes a call to the same contract (the `to` parameter) but in
+> practice it calls the contract whose address is returned from the call.
+
+So, we start with the Smart contract `0x9223f0630c598a200f99c5d4746531d10319a569` which we can find
 online [here](https://testnet.bscscan.com/address/0x9223f0630c598a200f99c5d4746531d10319a569).
 We click the "contract" tab and we see an **Ethereum Virtual Machine (EVM) bytecode**:
 ```
@@ -302,11 +311,11 @@ function function_selector( function_selector) public payable {
 }
 ```
 
-Function `testStr` takes a `str` as input and checks it byte by byte. If a check fails, function
-returns a different address. Only if all bytes of `str` are correct program returns the correct
-address:
+To trigger function `testStr`, the prefix must be `0x5684cff5`. Function takes a `str` as input and
+checks it byte by byte. If a check fails, function returns a different address. Only if all bytes of
+`str` are correct program returns the correct address:
 ```
-  0x5324eab94b236d4d1456edc574363b113cebf09d
+    0x5324eab94b236d4d1456edc574363b113cebf09d
 ```
 
 The correct `str` is:
@@ -453,9 +462,18 @@ function __function_selector__() private {
 }
 ```
 
-There is nothing really interesting here except the `owner()` function which returns the address
-`0xab5bc6034e48c91f3029c4f1d9101636e740f04d`. Let's visit it
-[here](https://testnet.bscscan.com/address/0xab5bc6034e48c91f3029c4f1d9101636e740f04d):
+
+In `__function_selector__()` we have several options. If the data start with `0x5c880fcb` (the
+prefix added in the web3 javascript), we call `0x5c880fcb()`. If the data start with `0x916ed24b`
+(we do not know where this comes from) we call `0x916ed24b()`. If we data start with `0x8da5cb5b`
+(we also do not know where this comes from) we call `owner()` to get contract address:
+```
+    0xab5bc6034e48c91f3029c4f1d9101636e740f04d
+```
+
+The function `0x5c880fcb()` and `0x916ed24b()` are not important at all. Let's visit the owner's
+address
+[0xab5bc6034e48c91f3029c4f1d9101636e740f04d](https://testnet.bscscan.com/address/0xab5bc6034e48c91f3029c4f1d9101636e740f04d):
 
 ![alt text](images/0xab5bc6034e48c91f3029c4f1d9101636e740f04d.png "")
 
@@ -624,7 +642,8 @@ noitarepo ROX')).REpLACE('DF9','|').REpLACE('KoY',[STrinG][cHaR]39).REpLACE(([cH
 ```
 
 
-We run it and we get a crash. We type `($Error[0]).InvocationInfo.Line` to see where the problem is:
+We run this obfuscated code and we get a crash. We type `($Error[0]).InvocationInfo.Line` to see
+where the problem is:
 
 ![alt text](images/powershell_crash.png "")
 
@@ -654,7 +673,7 @@ ultBytes))Set-Variable -Name command -Value ("tar -x --use-compress-program 'cmd
 ```
 
 Let's clean it up a little:
-```
+```powershell
 Set-Variable -Name testnet_endpoint -Value ("https://bsc-testnet.blockpi.network/v1/rpc/public")
 Set-Variable -Name _body -Value ('{"method":"eth_call","params":[{"to":"0x5324EAB94b236D4d1456Edc574363B113CEbf09d","data":"0x5c880fcb"}, 43152014],"id":1,"jsonrpc":"2.0"}')
 
@@ -728,6 +747,9 @@ b'I wish this was the flag'
 b'Yet more noise!!'
 b'Good thing this is on the testnet'
 ```
+
+Although the execution flow of this challenge is not very clear (e.g., how can we trigger the
+powershell from the Web3?), we can easily navigate to the next steps and get the flag.
 
 So the flag is: `N0t_3v3n_DPRK_i5_Th15_1337_1n_Web3@flare-on.com`
 ___
